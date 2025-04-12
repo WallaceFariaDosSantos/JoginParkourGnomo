@@ -82,8 +82,8 @@ function preload(){
     blockSize = windowWidth/39.6;
     lightRadius = windowWidth/26.4;
 
-    portalImg1 = loadImage("./assets/Images/portal1.png");
-    portalImg2 = loadImage("./assets/Images/portal2.png");
+    portalImg1 = loadImage("./Assets/Images/portal1.png");
+    portalImg2 = loadImage("./Assets/Images/portal2.png");
 
     gnomeSound = loadSound("./Assets/Sounds/GnomeWoo-1.mp3");
     gnomeSound2 = loadSound("./Assets/Sounds/GnomeWoo-2.mp3");
@@ -95,60 +95,60 @@ function preload(){
     backgroundMusic = loadSound("./Assets/Sounds/musicaprovisoria.mp3");
 
     dashOrbIdleAnim = loadAnimation(
-        "./assets/Images/dashOrb_00.png",
-        "./assets/Images/dashOrb_01.png",
-        "./assets/Images/dashOrb_02.png",
-        "./assets/Images/dashOrb_03.png",
-        "./assets/Images/dashOrb_04.png",
-        "./assets/Images/dashOrb_05.png",
-        "./assets/Images/dashOrb_06.png",
-        "./assets/Images/dashOrb_07.png",
-        "./assets/Images/dashOrb_08.png",
-        "./assets/Images/dashOrb_09.png",
-        "./assets/Images/dashOrb_10.png",
-        "./assets/Images/dashOrb_11.png",
-        "./assets/Images/dashOrb_12.png",
-        "./assets/Images/dashOrb_13.png",
-        "./assets/Images/dashOrb_14.png",
-        "./assets/Images/dashOrb_15.png"
+        "./Assets/Images/dashOrb_00.png",
+        "./Assets/Images/dashOrb_01.png",
+        "./Assets/Images/dashOrb_02.png",
+        "./Assets/Images/dashOrb_03.png",
+        "./Assets/Images/dashOrb_04.png",
+        "./Assets/Images/dashOrb_05.png",
+        "./Assets/Images/dashOrb_06.png",
+        "./Assets/Images/dashOrb_07.png",
+        "./Assets/Images/dashOrb_08.png",
+        "./Assets/Images/dashOrb_09.png",
+        "./Assets/Images/dashOrb_10.png",
+        "./Assets/Images/dashOrb_11.png",
+        "./Assets/Images/dashOrb_12.png",
+        "./Assets/Images/dashOrb_13.png",
+        "./Assets/Images/dashOrb_14.png",
+        "./Assets/Images/dashOrb_15.png"
     );
 
     gnomeIdle = loadAnimation(
-        "./assets/gnomo/gnomoIdle_0.png",
-        "./assets/gnomo/gnomoIdle_1.png",
-        "./assets/gnomo/gnomoIdle_2.png",
-        "./assets/gnomo/gnomoIdle_3.png"
+        "./Assets/gnomo/gnomoIdle_0.png",
+        "./Assets/gnomo/gnomoIdle_1.png",
+        "./Assets/gnomo/gnomoIdle_2.png",
+        "./Assets/gnomo/gnomoIdle_3.png"
     );
 
     gnomeLeft = loadAnimation(
-        "./assets/gnomo/gnomoLeft_0.png",
-        "./assets/gnomo/gnomoLeft_1.png",
-        "./assets/gnomo/gnomoLeft_2.png",
-        "./assets/gnomo/gnomoLeft_3.png"
+        "./Assets/gnomo/gnomoLeft_0.png",
+        "./Assets/gnomo/gnomoLeft_1.png",
+        "./Assets/gnomo/gnomoLeft_2.png",
+        "./Assets/gnomo/gnomoLeft_3.png"
     );
 
     gnomeRight = loadAnimation(
-        "./assets/gnomo/gnomoRight_0.png",
-        "./assets/gnomo/gnomoRight_1.png",
-        "./assets/gnomo/gnomoRight_2.png",
-        "./assets/gnomo/gnomoRight_3.png"
+        "./Assets/gnomo/gnomoRight_0.png",
+        "./Assets/gnomo/gnomoRight_1.png",
+        "./Assets/gnomo/gnomoRight_2.png",
+        "./Assets/gnomo/gnomoRight_3.png"
     );
 
-    blockImg0 = loadImage("./assets/Images/block_0.png");
-    blockImg1 = loadImage("./assets/Images/block_1.png");
-    blockImg2 = loadImage("./assets/Images/block_2.png");
-    blockImg3 = loadImage("./assets/Images/block_3.png");
-    blockImg4 = loadImage("./assets/Images/block_4.png");
-    blockImg5 = loadImage("./assets/Images/block_5.png");
-    blockImg6 = loadImage("./assets/Images/block_6.png");
-    blockImg7 = loadImage("./assets/Images/block_7.png");
-    blockImg8 = loadImage("./assets/Images/block_8.png");
-    blockImg9 = loadImage("./assets/Images/block_9.png");
-    blockImg10 = loadImage("./assets/Images/block_10.png");
+    blockImg0 = loadImage("./Assets/Images/block_0.png");
+    blockImg1 = loadImage("./Assets/Images/block_1.png");
+    blockImg2 = loadImage("./Assets/Images/block_2.png");
+    blockImg3 = loadImage("./Assets/Images/block_3.png");
+    blockImg4 = loadImage("./Assets/Images/block_4.png");
+    blockImg5 = loadImage("./Assets/Images/block_5.png");
+    blockImg6 = loadImage("./Assets/Images/block_6.png");
+    blockImg7 = loadImage("./Assets/Images/block_7.png");
+    blockImg8 = loadImage("./Assets/Images/block_8.png");
+    blockImg9 = loadImage("./Assets/Images/block_9.png");
+    blockImg10 = loadImage("./Assets/Images/block_10.png");
 
-    bubbleProtectionImg = loadImage("./assets/Images/BubbleProtection.png");
-    leverImgOn = loadImage("./assets/Images/lever_1.png");
-    leverImgOff = loadImage("./assets/Images/lever_0.png");
+    bubbleProtectionImg = loadImage("./Assets/Images/BubbleProtection.png");
+    leverImgOn = loadImage("./Assets/Images/lever_1.png");
+    leverImgOff = loadImage("./Assets/Images/lever_0.png");
 }
 
 function setup() {
